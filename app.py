@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # Load the model
-MODEL_PATH = 'cervical_fracture_model.h5'
+MODEL_PATH = 'model_2_denseNet121.h5'
 model = load_model(MODEL_PATH)
 
 # Define class labels (update with your labels)
